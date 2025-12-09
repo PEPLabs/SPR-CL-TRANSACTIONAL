@@ -1,4 +1,4 @@
-package Lab.Model;
+package lab.Model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.*;

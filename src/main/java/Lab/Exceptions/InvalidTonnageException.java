@@ -1,4 +1,4 @@
-package Lab.Exceptions;
+package lab.Exceptions;
 
 /**
  * there is no need to modify this class.

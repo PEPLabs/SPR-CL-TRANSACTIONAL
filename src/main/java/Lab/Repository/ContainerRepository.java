@@ -1,7 +1,7 @@
-package Lab.Repository;
+package lab.Repository;
 
 
-import Lab.Model.Container;
+import lab.Model.Container;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

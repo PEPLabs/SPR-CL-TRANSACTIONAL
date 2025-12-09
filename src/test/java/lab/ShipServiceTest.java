@@ -1,11 +1,14 @@
-import Lab.Service.ShipService;
+package lab;
+
+import lab.Service.ShipService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.transaction.annotation.Transactional;
 
+
 import java.lang.annotation.Annotation;
 
-public class ShipServiceTestSuite {
+public class ShipServiceTest {
 
     @Test
     public void testTransactionalAnnotationPresence(){

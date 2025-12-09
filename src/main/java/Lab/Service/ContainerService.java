@@ -1,10 +1,10 @@
-package Lab.Service;
+package lab.Service;
 
-import Lab.Exceptions.NegativeWeightException;
-import Lab.Model.Container;
-import Lab.Model.Ship;
-import Lab.Repository.ContainerRepository;
-import Lab.Repository.ShipRepository;
+import lab.Exceptions.NegativeWeightException;
+import lab.Model.Container;
+import lab.Model.Ship;
+import lab.Repository.ContainerRepository;
+import lab.Repository.ShipRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

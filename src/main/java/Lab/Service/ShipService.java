@@ -1,8 +1,8 @@
-package Lab.Service;
+package lab.Service;
 
-import Lab.Exceptions.InvalidTonnageException;
-import Lab.Model.Ship;
-import Lab.Repository.ShipRepository;
+import lab.Exceptions.InvalidTonnageException;
+import lab.Model.Ship;
+import lab.Repository.ShipRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

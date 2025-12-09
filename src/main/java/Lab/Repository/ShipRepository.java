@@ -1,6 +1,6 @@
-package Lab.Repository;
+package lab.Repository;
 
-import Lab.Model.Ship;
+import lab.Model.Ship;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

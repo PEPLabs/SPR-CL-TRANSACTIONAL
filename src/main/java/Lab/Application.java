@@ -1,11 +1,11 @@
-package Lab;
+package lab;
 
-import Lab.Exceptions.InvalidTonnageException;
-import Lab.Exceptions.NegativeWeightException;
-import Lab.Model.Container;
-import Lab.Model.Ship;
-import Lab.Service.ContainerService;
-import Lab.Service.ShipService;
+import lab.Exceptions.InvalidTonnageException;
+import lab.Exceptions.NegativeWeightException;
+import lab.Model.Container;
+import lab.Model.Ship;
+import lab.Service.ContainerService;
+import lab.Service.ShipService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.boot.SpringApplication;
