@@ -1,0 +1,20 @@
+{
+  "type": "Java",
+  "testFiles": [
+    {
+      "path": "src/test/java/lab/ShipServiceTest.java",
+      "testCases": [
+        {
+          "methodName": "testTransactionalAnnotationPresence",
+          "label": "Verify @Transactional annotation exists on ShipService",
+          "description": "Checks that the ShipService class is annotated with Spring's @Transactional annotation."
+        },
+        {
+          "methodName": "testTransactionalRollbackForTonnageException",
+          "label": "Verify rollback configuration for InvalidTonnageException",
+          "description": "Ensures the @Transactional annotation on ShipService includes rollback configuration for InvalidTonnageException."
+        }
+      ]
+    }
+  ]
+}
