@@ -1,5 +1,5 @@
 {
-  "type": "Java",
+  "type": "java",
   "testFiles": [
     {
       "path": "src/test/java/lab/ShipServiceTest.java",
